@@ -1,0 +1,43 @@
+{
+  "name": "suchi-body-proportion",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "build:body": "python3 scripts/build_body_asset.py"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "three": "^0.179.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "@types/three": "^0.179.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.2",
+    "vite-plugin-singlefile": "^2.3.4",
+    "vitest": "^3.2.4"
+  },
+  "description": "本地运行的参数化女性身体比例工具：2D 正交比例图、测量拟合 3D 人台、可追溯的数据边界。",
+  "license": "MIT",
+  "author": "素尺 contributors",
+  "keywords": [
+    "body-proportion",
+    "anthropometry",
+    "threejs",
+    "react",
+    "vite",
+    "chinese-women",
+    "offline"
+  ],
+  "engines": {
+    "node": ">=20.19"
+  }
+}
